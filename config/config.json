@@ -1,0 +1,27 @@
+{
+  "patch_settings": {
+    "critical_only": true,
+    "security_only": true,
+    "auto_reboot": false,
+    "reboot_delay_minutes": 30,
+    "enable_logging": true,
+    "log_retention_days": 90
+  },
+  "paths": {
+    "log_directory": "C:\\PatchManagementProject\\Logs",
+    "report_directory": "C:\\PatchManagementProject\\Reports",
+    "config_file": "C:\\PatchManagementProject\\Config\\config.json"
+  },
+  "scheduling": {
+    "enable_scheduled_task": true,
+    "schedule_frequency": "Daily",
+    "scheduled_time": "02:00",
+    "task_name": "Patch-Management-Automation"
+  },
+  "notification": {
+    "send_email": false,
+    "email_recipient": "admin@company.com",
+    "smtp_server": "smtp.company.com",
+    "smtp_port": 587
+  }
+}
