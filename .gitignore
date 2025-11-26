@@ -1,0 +1,20 @@
+# Logs and reports
+Logs/
+Reports/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# PowerShell
+*.ps1.bak
+*.psm1.bak
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+*.swp
